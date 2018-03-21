@@ -3,7 +3,7 @@ require 'telegram/bot'
 require 'screencap'
 require 'phantomjs'
 Phantomjs.path
-token = '257957425:AAF66kHImNt3gB_s9aCVuyBqzj8smYrsp5Y'
+token = 'your_token_here'
 Telegram::Bot::Client.run(token) do |bot|
   puts 'Bot was started.'
   bot.listen do |message|
